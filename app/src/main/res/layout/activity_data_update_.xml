@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".User_Details.DataUpdate_Activity">
+
+    <EditText
+        android:id="@+id/show_email_id"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:hint="E-mail"
+
+
+        />
+  <TextView
+      android:layout_gravity="center"
+      android:onClick="phoneCall"
+      android:id="@+id/show_PhoneNo_id"
+      android:layout_margin="10dp"
+      android:layout_marginTop="20dp"
+      android:textSize="20sp"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content" />
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:onClick="Update_Data"
+        android:text="Update"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_marginTop="20dp"
+        android:onClick="Delete_Data"
+        android:textColor="@color/colorAccent"
+        android:text="Delete_Button"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_marginTop="10dp"
+        android:onClick="Call"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Call to Doctor"
+        android:layout_gravity="center"
+        android:textColor="@color/colorAccent"
+
+        />
+
+</LinearLayout>
